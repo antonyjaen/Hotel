@@ -22,11 +22,11 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Max2 {
 
-   public static Connection conn;
-   public static final String driver = "com.mysql.jdbc.Driver";
-   public static final String user = "ujciiquvqurxk7da";
-   public static final String pass = "lLRyKN4cFzt7dhVe7AVi";
-   public static final String url = "jdbc:mysql://bgxis7kwzhrlsmskr6vs-mysql.services.clever-cloud.com/bgxis7kwzhrlsmskr6vs";
+    private static Connection conn;
+    private static final String driver = "com.mysql.jdbc.Driver";
+    private static final String user = "ujciiquvqurxk7da";
+    private static final String pass = "lLRyKN4cFzt7dhVe7AVi";
+    private static final String url = "jdbc:mysql://bgxis7kwzhrlsmskr6vs-mysql.services.clever-cloud.com/bgxis7kwzhrlsmskr6vs";
    // private static final String url = "jdbc:mysql://localhost/test";
 
     /**
